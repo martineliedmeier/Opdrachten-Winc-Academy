@@ -1,0 +1,105 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: whitesmoke;
+  color: black;
+  font: normal 14px Arial, Helvetica, sans-serif;
+  line-height: 1.5em;
+  margin: 0;
+}
+main {
+  margin-top: 75px;
+  margin-bottom: 80px;
+}
+nav .navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: gray;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  font-size: 1.8em;
+}
+nav .navbar li {
+  float: left;
+}
+
+nav .navbar li a {
+  display: block;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-right: 2px solid white;
+}
+nav .navbar li:last-child {
+  border-right: none;
+}/*dit doet niet wat ik wil - sterker nog: het doet niks*/
+nav .navbar li a.active {
+  background-color: rgb(165, 217, 241);
+}
+nav .navbar li a:hover:not(.active) {
+  background-color: black;
+}
+.container {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+section {
+  background-color: lightgray;
+  border: 5px solid rgb(165, 217, 241);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.container h1 {
+  text-align: center;
+  font-size: 2.5em;
+  text-decoration: underline;
+}
+.container h2 {
+  text-align: center;
+  font-size: 1.8em;
+}
+
+article {
+  border: 2px dotted black;
+  border-radius: 10px;
+  padding: 0px 10px 10px;
+  margin-bottom: 7px;
+}
+.container img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer {
+  background-color: gray;
+  position: sticky;
+  bottom: 0px;
+  width: 100%;
+  padding-left: 10px;
+}
+footer div {
+  float: left;
+  background-color: rgb(165, 217, 241);
+  width: 40%;
+  padding-left: 20px;
+  margin: 10px 0px 10px 60px;
+  border-radius: 10px;
+  font-size: 1.8em;
+}
+.lege_ruimte {
+  margin-top: 130px;
+} /*superirritant: ik krijg het niet op een andere manier voor elkaar om de footer niet over de tekst van de main te laten overlappen*/
+/*MEDIA QUERIES VANAF HIER*/
+@media (min-width: 1024px) {
+body {
+  background-color: mintcream;
+  color: brown;
+  line-height: 2em;
+}
+}
