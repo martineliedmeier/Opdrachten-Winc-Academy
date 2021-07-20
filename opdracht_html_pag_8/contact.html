@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Contactformulier</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <nav>
+        <ul class="navbar">
+          <li>
+            <a href="index.html">Homepage</a>
+          </li>
+          <li>
+            <a href="oceanen.html">Oceanen</a>
+          </li>
+          <li>
+            <a href="vliegtuigen.html">Vliegtuigen</a>
+          </li>
+          <li><a href="vulkanen.html">Vulkanen</a></li>
+          <li><a class="active" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </nav>
+  </header>
+  <main>
+    <div class="container">
+      <section>
+        <h1>Contactformulier</h1>
+        <p>Je kunt hier je gegevens en eventuele vragen achterlaten.</p>
+      </section>
+      <article>
+        <form name="Contactformulier" method="POST" data-netlify="true">
+          <label>Jouw naam: <br /><input type="text" name="naamveld" required /></label><br />
+          <label>Jouw e-mailadres: <br /><input type="text" name="emailveld" required /> </label><br />
+          <label>Telefoonnummer: <br /><input type="tel" name="telefoonveld" /></label><br />
+          <label>Leeftijd: <br /> <input type="num" maxlength="2" name="leeftijd" /></label><br />
+          <label>Geboortedatum: <br /><input type="date" name="geboortedatum" /></label><br />
+          <p>Gender:</p>
+          <input type="radio" id="M" name="Gender" value="Mannelijk" />
+          <label for="M">Mannelijk</label>
+          <br />
+          <input type="radio" id="V" name="Gender" value="Vrouwelijk" />
+          <label for="V">Vrouwelijk</label>
+          <br />
+          <input type="radio" id="NB" name="Gender" value="Non-Binair" />
+          <label for="NB">Non-binair </label>
+          <br />
+          <br />
+          <p>Favoriete veldbloemen:</p>
+          <input type="checkbox" id="boter" name="Boterbloem" />
+          <label for="boter">Boterbloem</label> <br />
+          <input type="checkbox" id="pinkster" name="Pinksterbloem" />
+          <label for="pinkster">Pinksterbloem</label> <br />
+          <input type="checkbox" id="koren" name="Korenbloem" />
+          <label for="koren">Korenbloem</label> <br />
+          <input type="checkbox" id="zuring" name="Zuring" />
+          <label for="zuring">Zuring</label>
+          <br />
+          <br />
+          <input type="color" id="kleed" name="Kleurkleed" />
+          <label for="kleed">Favoriete kleur picknickkleed</label>
+          <br />
+          <label>Vertel me de gelegenheid voor je picknickevenement: <br /> <textarea name="Gelegenheid" cols="60" rows="5"></textarea></label>
+          <br />
+          <label>Stuur me een foto toe, als je dat wilt: <br /> <input type="file" name="foto" /></label>
+          <br />
+          <br />
+          <label>Tip een mooie website: <br /> <input type="url" name="tiplink" /></label>
+          <br />
+          <br />
+          <input type="reset" /> <br />
+          <input type="submit" />
+        </form>
+      </article>
+    </div>
+  </main>
+  <footer>
+    <div>
+      <p>naam</p>
+      <p>adres</p>
+      <p>postcode</p>
+      <p>plaatsnaam</p>
+    </div>
+    <div>
+      <p>andere</p>
+      <p>super</p>
+      <p>belangrijke</p>
+      <p>informatie</p>
+    </div>
+  </footer>
+</body>
+
+</html>
