@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contactformulier</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <nav>
+          <ul class="navbar">
+            <li>
+              <a href="index.html">Homepage</a>
+            </li>
+            <li>
+              <a href="oceanen.html">Oceanen</a>
+            </li>
+            <li>
+              <a href="vliegtuigen.html">Vliegtuigen</a>
+            </li>
+            <li><a href="vulkanen.html">Vulkanen</a></li>
+            <li><a class="active" href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <section>
+          <h1>Contactformulier</h1>
+          <p>Je kunt hier je gegevens en eventuele vragen achterlaten.</p>
+        </section>
+        <article>
+          <form name="Contactformulier" method="POST" data-netlify="true">
+            <p>
+              <label>Jouw naam: <br /><input type="text" id="naam" /></label>
+            </p>
+            <p>
+              <label>
+                Jouw e-mailadres: <br /><input type="text" id="e-mail" />
+              </label>
+            </p>
+            <p><label for="voorkeur">Geef je voorkeur aan:</label></p>
+            <p><textarea id="voorkeur" cols="30" rows="10"></textarea></p>
+            <input type="submit" />
+          </form>
+        </article>
+      </div>
+    </main>
+    <footer>
+      <div>
+        <p>naam</p>
+        <p>adres</p>
+        <p>postcode</p>
+        <p>plaatsnaam</p>
+      </div>
+      <div>
+        <p>andere</p>
+        <p>super</p>
+        <p>belangrijke</p>
+        <p>informatie</p>
+      </div>
+    </footer>
+  </body>
+</html>
