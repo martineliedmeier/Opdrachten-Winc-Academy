@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contactpagina</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+          <ul class="navbar">
+              <li>
+                  <a href="index.html">Homepage</a>
+              </li>
+              <li>
+                <a href="kunstwerken.html">Kunstwerken</a>
+              </li>
+              <li>
+                  <a href="edwardjames.html">Edward James</a>
+              </li>
+              <li>
+                  <a href="surrealisme.html">Surrealisme</a>
+              </li>
+              <li>
+                  <a class="active" href="contact.html">Contactpagina</a>
+              </li>
+          </ul>
+      </nav>
+    </header>
+    <main>
+      <img class="image" src="images\restauratie.jpg">
+      <div class="container">
+        <article>
+          <h2>Contact</h2>
+          <p>Gebruik dit formulier om je vragen te stellen of suggesties te doen voor het verbeteren van deze website.</p>
+          <p>Door je gegevens achter te laten maak je kans op het winnen van een reproductie van jouw favoriete schilderijvan Salvador Dalí.</p>
+          <div class="formulier">
+          <form name="Contactformulier" method="POST" data-netlify="true"></form>
+          <div>
+            <label>Jouw naam: <br /><input type="text" name="naamveld" required /></label>
+          </div>
+          <div>
+            <label>Jouw e-mailadres: <br /><input type="text" name="emailveld" required /></label>
+          </div>
+          <br>
+          <div>
+            Ik wil meer informatie zien over:
+          <div>
+            <input type="checkbox" id="dali" name="Salvador Dalí" />
+            <label for="dali">Salvador Dalí</label> 
+          </div>
+        <div>
+            <input type="checkbox" id="edward" name="Edward James" />
+            <label for="edward">Edward James</label> 
+          </div>
+        <div>
+            <input type="checkbox" id="surrealisme" name="Surrealisme" />
+            <label for="surrealisme">Surrealisme</label> 
+          </div>
+          <br>
+          <div>
+            <label>Stuur me de link naar jouw favoriete werk van Dalí <br />
+              <input type="url" name="favolink" /></label>
+          </div>
+          <br>
+          <div>
+            <label>Opmerkingen: <br />
+              <textarea name="Opmerking" cols="60" rows="5"></textarea>
+            </label>
+          </div>
+        </div>
+        </article>
+      </div> 
+    </main>
+    <footer>
+      <div>
+        <h3>Disclaimer</h3>
+        <p>Alle informatie op deze website is geknipt uit Wikipedia en is niet geredigeerd.</p>
+      </div>
+      <div>
+        <h3>Touwtjespringend meisje</h3>
+        <p>Het schilderij Touwtjespringend meisje is nu te zien in Nieuw Zeeland, maar haar woonplaats is Rotterdam.</p>
+      </div>
+    </footer>
+  </body>
+</html>

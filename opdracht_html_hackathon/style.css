@@ -1,0 +1,102 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: bisque;
+    font: 16px;
+    margin: 0%;
+    line-height: 1.5em;
+}
+main {
+  margin-top: 30px;
+}
+nav .navbar {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  top: 0px;
+  width: 100%;
+  list-style-type: none;
+}
+nav .navbar li {
+  float: none;
+  top: 0px;
+  width: 100%;
+  font-size: 1.8em;
+}
+nav .navbar li a {
+    display: block;
+    margin: 0;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: rgb(238, 163, 71);
+  }
+nav .navbar li a.active {
+    background-color: rgb(238, 163, 71);
+    color: white;
+}
+.container {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container h2 {
+  text-align: center;
+  font-size: 1.8em;
+}
+article {
+  border: 2px solid rgb(238, 163, 71);
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 10px;
+  margin-bottom: 7px;
+}
+section {
+  padding: 20px;
+}
+.image {
+  width: 100%;
+}
+.image_small {
+  display: block;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  border: 2px solid rgb(238, 163, 71);
+}
+a {
+  color: rgb(243, 139, 11);
+}
+.formulier {
+  padding-left: 60px;
+
+}
+footer {
+  background-color: rgb(238, 163, 71);
+  position: static;
+  bottom: 0px;
+  width: 100%;
+  padding-left: 10px;
+}
+footer div {
+  float: left;
+  width: 40%;
+  margin: 5px 10px 10px 15px;
+  border: 2px solid rgb(238, 163, 71);
+  background-color: rgb(255, 241, 225) ;
+  border-radius: 5px;
+  padding: 5px 15px;
+  font-size: 0.8em;
+}
+@media (min-width: 1024px) {
+  nav .navbar li {
+    float: left;
+    width: 20%;
+  }
+  nav .navbar li a {
+    display: inline-block;
+}
+footer div {
+  margin: 5px 20px 10px 75px;
+}
+}
