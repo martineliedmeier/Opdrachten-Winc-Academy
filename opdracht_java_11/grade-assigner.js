@@ -13,6 +13,6 @@ const punt = function assignGrade(score) {
   }
 
   for (score = 60; score <= 100; score++) {
-    console.log ("Your grade is " + punt(score));
+      console.log ("For scoring " + score + " points, you get a " + punt(score));
   }
        
