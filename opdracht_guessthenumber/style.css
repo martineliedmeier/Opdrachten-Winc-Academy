@@ -1,0 +1,28 @@
+body {
+  background-color: bisque;
+  color: black;
+  font: normal 14px Arial, Helvetica, sans-serif;
+  line-height: 1.5em;
+}
+
+.container {
+  border: 2px solid brown;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.container h1 {
+  text-align: center;
+  text-decoration-line: underline;
+}
+
+.container button {
+  background-color: rgb(240, 108, 108);
+  color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
