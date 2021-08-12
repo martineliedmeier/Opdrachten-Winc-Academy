@@ -1,0 +1,50 @@
+.rodeAchtergrond {
+    background-color: red;
+}
+
+.blauweAchtergrond {
+    background-color: blue;
+}
+
+.groeneAchtergrond {
+    background-color: green;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    padding: 16px 16px;
+    border: 1px solid white;
+    width: 100px;
+    overflow: auto; 
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#begin {
+    background-color: lightgrey;
+    color: black;
+}
+
+#liRood {
+    background-color: red;
+}
+
+#liBlauw {
+    background-color: blue;
+}
+
+#liGroen {
+    background-color: green;
+}
+
+.hamburgerMenu {
+   display: none;
+}
+
+
+.showMenu {
+    display: block;
+}
